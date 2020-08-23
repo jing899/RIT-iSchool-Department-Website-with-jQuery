@@ -1,0 +1,472 @@
+body{
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #2A2A2A;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+}
+
+#main_video{
+    height: 65vh;
+    width: 100%;
+    padding: 0;
+    margin:0;
+    margin-bottom: 10vh;
+}
+
+/*---------------------------*/
+
+/*navigation*/
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li{
+    float: right;
+    text-align: center;
+}
+
+nav li a{
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 1em;
+    font-size: 15px;
+}
+
+#navTitle{
+    font-weight: 600;
+    float: left;
+    color: orange;
+}
+
+#navTitle a:hover{
+    text-decoration: none;
+}
+
+nav li.dropdown{
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+}
+
+.dropdown-content a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #333;
+    position: fixed;
+}
+
+.dropdown-content a:hover{
+    color: orange;
+    border-left: 4px solid orange;
+}
+/*---------------------------*/
+
+/*page*/
+.full{text-align: center;}
+
+.middle{
+    position: relative;
+    text-align: center;
+}
+
+#main_title{
+    color: #FFFFFF;
+    font-size: 40px;
+    margin-top: 5vh;
+    margin-bottom: 7vh;
+}
+
+.CIT{color: #F2762E;}
+h3{font-size: 30px;}
+h1{font-size: 45px; text-align: center;}
+
+/*---------------------------*/
+
+/*about*/
+#about {
+    height: 60vh;
+    text-align: center; 
+    background-color: rgba(255,250,224,0.6);
+    width: 80%;
+    margin: auto;
+    border-radius: 245px 0;
+}
+
+#about_title{
+    padding-top: 3%;
+    color: #6F6F6F;
+    font-size: 45px;
+    font-weight: bold;
+}
+#about p{margin-left: 8vw; margin-right: 8vw;line-height: 1.8em;}
+
+/*---------------------------*/
+
+/*undergraduate, graduate, and minors*/
+#undergraduate, #graduates, #minor{
+    width: 100%;
+    padding-bottom: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 1px 1px #2A2A2A;
+}
+
+.title{color: #F2762E;}
+
+#certButton{
+    color: #F2762E;
+    font-size: 1em;
+    height: 35px;
+    border: hidden;
+    cursor: pointer;
+    margin-top: 2%;
+    border-radius: 15px;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+#certButton:hover{
+    color: #FFFFFF;
+    background-color: orange;
+    transition: 0.3s;
+}
+
+.majors{
+    display: inline-block;
+    width: 310px;
+    height: 260px;
+    margin-left: 2%;
+    margin-right: 2%;
+    vertical-align: top;
+    padding-top: 15px;
+}
+
+#minors{
+    display: inline-block;
+    width: 300px;
+    height: 190px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 3%;
+    vertical-align: top;
+    border: 3px dotted orange;
+    padding-top: 15px;
+}
+
+.majors:hover, #minors:hover{
+    transform: scale(1.05);
+    background-color: orange;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #2A2A2A;
+    text-shadow: none;
+}
+
+.hiddenContent{display: none;}
+
+/*---------------------------*/
+
+/*faculty, staff*/
+
+.peopleInfo, .peoplelName{text-align: center;}
+
+#faculty, #staff{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #333;
+}
+
+#facPeople, #stafPeople{
+    display: inline-block;
+    width: 200px;
+    height: 240px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    vertical-align: top;
+    text-align: center;
+    background-color: rgba(240,240,240,0.9);
+}
+
+#facPeople:hover, #stafPeople:hover{
+    transform: scale(1.1);
+    background-color: rgba(240,240,240,0.95);
+}
+
+.pics{
+    width: 100px;
+    height: 100px;
+    border-radius: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*---------------------------*/
+
+/*research by interest area*/
+
+#reByInt, #reByFac{
+    text-align: center;
+    padding-top: 2vh;
+}
+
+.reTitle{padding-top: 18vh;}
+
+#byInt, #byFac{
+    display: inline-block;
+    width: 300px;
+    height: 80px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    vertical-align: top;
+    text-align: center;
+    margin-top: auto;
+    background-color: rgba(240,240,240,0.9);
+}
+
+#byInt h4, #byFac h4{
+    font-size: 1.25em;
+}
+
+#byInt:hover, #byFac:hover{
+    transform: scale(1.1);
+    background-color: rgba(255,165,0,0.95);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/*---------------------------*/
+
+/*news*/
+#news{
+    margin-top: 4%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*---------------------------*/
+
+/*resources*/
+#resSubTitle{text-align: center; color: #6F6F6F;}
+
+#resContent div{
+    height: 10vh;
+    width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    background-color: rgba(240,240,240,0.9);
+}
+
+#resContent div p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.25em;
+}
+
+#resContent div:hover{
+    transform: scale(1.1);
+    background-color: rgba(255,165,0,0.95);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/*---------------------------*/
+
+/*footer*/
+.footer{
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    padding-bottom: 6px;
+    color: #FFFFFF;
+    margin-top: 10vh;
+}
+
+.footer h1{
+    padding-top: 20px;
+    color: #F2762E;
+    font-size: 2em;
+}
+
+.socialIcons{
+    margin: 7px;
+    font-size: 3em;
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+.quickLinks a, .copyRight a{
+    display: inline-block;
+    margin: 5px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.quickLinks a:hover, .socialIcons:hover, .copyRight a:hover{
+    color: #F2762E;
+    transition: 0.3s;
+
+}
+
+/*---------------------------*/
+
+/*contact*/
+#contact_form{
+    margin-top: 10vh;
+    width: 100vw;
+    height: 80vh;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+/*---------------------------*/
+
+/*employment*/
+
+#introduction h1{
+    text-align: center;
+    color: #F2762E;    
+}
+
+#introduction, #introduction h2{
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 1px 1px black;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+#introduction{margin-top: 12vh; margin-bottom: 14vh;}
+
+#introduction p{line-height: 1.4em;}
+
+#degreeStats{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(255,250,224,0.6);
+    width: 82%;
+    text-align: center;
+    border-radius: 245px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#degreeStats hr{
+    height: 5px;
+    width: 80%;
+    text-align: center;
+    border: none; 
+    background-color: #6F6F6F;
+}
+
+#degreeStats > h2{
+    color: #6F6F6F;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.stats{
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    width: 250px;
+    height: 200px;
+    vertical-align: top;
+}
+
+.stats h2, .stats p{
+    position: relative;
+    top: 30px;
+}
+
+.stats h2{color: #F2762E; font-size: 2em;}
+
+#box{
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#box p{
+    display: inline-block;
+    color: #FFFFFF;
+    margin: .8em;
+    text-shadow: 1px 1px black;
+}
+
+#employers, #careers{
+    color: #F2762E;
+    display: inline-block;
+    width: 400px;
+    vertical-align: top;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#box p:hover{color: #FFFFFF;}
+
+#employers:hover, #careers:hover{
+    background-color: #F2762E;
+    transition: 0.3s;
+    color: black;
+}
+#map{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    position: relative;
+}
+
+#map h2{color: #FFFFFF;}
+
+#imap {
+    height: 600px;
+    width: 1000px;
+    border: none;
+}
+
+#tables{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#tables .buttons{
+    margin: 1em;
+    background-color: #F2762E;
+    height: 8vh;
+    border: none;
+    color: #FFFFFF;
+}
+
+#tables .buttons:hover{
+    cursor: pointer;
+    color: black;
+    transition: 0.3s;
+}
+
+/*---------------------------*/
